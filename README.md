@@ -1,5 +1,7 @@
 # Data Sort
-Este programa tem o propósito de demonstrar uma aplicação do design pattern strategy.
+Este programa tem o propósito de demonstrar uma aplicação do design pattern strategy. Ele pede ao usuário que digite 
+um texto, o ordena, escolhendo automaticamente entre três algoritmos (Insertion Sort, Bubble Sort e Merge Sort) e 
+mostra o texto ordenado na tela. A escolha do algoritmo é feita com base no tamanho do texto.
 
 ## Requisitos
 - [Java JDK 17](https://adoptium.net/).
