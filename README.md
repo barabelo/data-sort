@@ -8,7 +8,7 @@ Este programa tem o propósito de demonstrar uma aplicação do design pattern s
 
 ## Preparação
 1. [Clone o repositório](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository) ou baixe e descompacte o zip.
-2. Abra a pasta do projeto clonado no emulador de terminal de sua escolha.
+2. Abra a pasta do projeto clonado em um emulador de terminal.
 
 ## Testes
 Para executar os testes unitários do projeto, digite o comando:
