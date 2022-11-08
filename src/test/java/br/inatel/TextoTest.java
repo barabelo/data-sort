@@ -2,6 +2,7 @@ package br.inatel;
 
 import br.inatel.estrategia_de_ordenacao.implementacao.EstrategiaBubbleSort;
 import br.inatel.estrategia_de_ordenacao.implementacao.EstrategiaInsertionSort;
+import br.inatel.estrategia_de_ordenacao.implementacao.EstrategiaMergeSort;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -45,4 +46,16 @@ public class TextoTest {
         assertEquals(textoOrdenado, ordenado);
     }
 
+    @Test
+    public void textoGrandeTest() {
+        texto = new TextoGrande();
+        assertTrue(texto.getEstrategiaDeOrdenacao() instanceof EstrategiaMergeSort);
+    }
+
+    @Test
+    public void ordenarTextoGrandeTest() {
+        texto = new TextoGrande();
+        String ordenado = texto.ordenar(textoDesordenado);
+        assertEquals(textoOrdenado, ordenado);
+    }
 }
