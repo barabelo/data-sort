@@ -24,7 +24,7 @@ Para executar os testes unitários do projeto, digite o comando:
 2. Digite o(s) comando(s):
    - PowerShell:
 
-      ```java -jar .\target\Data-Sort-jar-with-dependencies.jar```
+      ```java -jar .\target\data-sort-1.0-SNAPSHOT-jar-with-dependencies.jar```
    - Prompt de Comando:
    
       ```cd target```
