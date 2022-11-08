@@ -4,7 +4,8 @@ import br.inatel.EstrategiaDeOrdenacao;
 
 public class EstrategiaInsertionSort implements EstrategiaDeOrdenacao {
     @Override
-    public String[] ordenarPalavras(String[] palavras) {
+    public String ordenarPalavrasDoTexto(String texto) {
+        String[] palavras = texto.trim().split("\\s+");
         for (int i = 0; i < palavras.length; ++i) {
             int j = i;
             while (j > 0 && palavras[j - 1].toLowerCase().compareTo(palavras[j].toLowerCase()) > 0) {
@@ -14,6 +15,6 @@ public class EstrategiaInsertionSort implements EstrategiaDeOrdenacao {
                 j = j - 1;
             }
         }
-        return palavras;
+        return String.join(" ", palavras);
     }
 }
